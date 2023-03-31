@@ -1,0 +1,45 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.main{
+    position: relative;
+}
+.main .toggle{
+    visibility: visible;
+    animation: fadeIn 1s;
+}
+/* .info .hide{
+    visibility: visible;
+    animation: fadeIn 1s;
+} */
+.poup-paragraph{
+    width: 400px;
+    padding: 30px;
+    border-radius: 20px;
+    margin: 1px auto;
+    visibility: hidden;
+}
+
+
+.close{
+    position: absolute;
+    top: 20%;
+    right: 18%;
+    background: aqua;
+    width: 15px;
+    baseline-shift: 15px;
+    text-align: center;
+    border-radius: 50%;
+    cursor: pointer;
+    visibility: hidden;
+
+}
+
+@keyframes fadeIn {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+
+.scrollP{
+    width: 400px;
+}
